@@ -16,7 +16,7 @@
     "wdth" 100;
 }
 body{
-    margin: 0 auto;
+    
     background-color: #F5F8FF;
 }
 nav{
@@ -80,6 +80,8 @@ nav button{
 main{
     margin-left: 141px;
     margin-right: 159px;
+    width: 1140px;
+    margin: 0 auto;
 }
 
 
@@ -155,5 +157,70 @@ main{
 .follwer-s{
     margin-bottom: 50px;
     margin-left: 142px;
+    margin-top: 0;
+}
+.challenges_section{
+    
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 137px;
+    margin-bottom: 137px;
+
+}
+.challenges_section h1{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cards{
+    display: flex;
+    border-radius: 14px;
+    justify-content: space-between;
+    gap: 20px;
+    
+    
+}
+.card{
+    text-align: left;
+    background-color: #FFFFFF;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+}
+    
+
+.card h5{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+
+}
+.card P{
+    font-size: 20px;
+    margin-top: 0;
+    color: #1E1E1E;
+}
+
+.all{
+    display: flex;
+}
+.all img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.all-p{
+    margin-bottom: 0;
+}
+.all-p h6{
+    color: rgba(117, 117, 117, 1);
+    font-size: 20px;
+
+
+}
+.card p{
     margin-top: 0;
 }
