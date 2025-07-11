@@ -18,6 +18,8 @@
 body{
     
     background-color: #F5F8FF;
+    max-width: 100%;
+    margin: 0 auto;
 }
 nav{
     display: flex;
@@ -60,8 +62,9 @@ nav button{
     margin-left: 267.5px;
     margin-right: 267.5px;
     height: 237px;
-    width: 905px;
+    max-width: 905px;
     margin: 0 auto;
+    width: 100%;
 }
 .banner h1{
     font-size: 65px;
@@ -78,10 +81,10 @@ nav button{
 
 }
 main{
-    margin-left: 141px;
-    margin-right: 159px;
-    width: 1140px;
-    margin: 0 auto;
+max-width: 1200px;
+padding: 0 auto;
+margin: 0 auto;
+width: 100%;
 }
 
 
