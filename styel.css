@@ -86,7 +86,9 @@ nav button{
 }
 main{
 max-width: 1200px;
+padding: 0 auto;
 margin: 0 auto;
+width: 100%;
 }
 
 
